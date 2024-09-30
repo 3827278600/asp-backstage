@@ -1,10 +1,11 @@
 import React from "react";
+import {RouterProvider} from "react-router-dom"
+import router from "./router";
+
 const App=()=>{
 
     return (
-        <div>
-            <h1>APP首页</h1>
-        </div>
+       <RouterProvider router={router}/>
     )
 }
 
